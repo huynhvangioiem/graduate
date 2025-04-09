@@ -9,7 +9,7 @@
     <link rel="icon" type="image/jpg" href="3da0b28c8d183d466409.jpg">
     <link rel="apple-touch-icon" type="image/jpg" href="3da0b28c8d183d466409.jpg">
     <!-- Base tag for GitHub Pages -->
-    <base href="/graduate/">
+    <base href="/">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
@@ -91,10 +91,14 @@
 
         .main-image {
             width: 100%;
-            max-height: 600px;
-            object-fit: cover;
+            height: 300px;
+            object-fit: contain;
             margin: 0 auto;
             display: block;
+            background: linear-gradient(135deg, #ffd700 0%, #ffa500 50%, #ff8c00 100%);
+            border-radius: 8px;
+            padding: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         }
 
         .post-text {
@@ -643,7 +647,7 @@
                             niệm cùng
                             Em nhé ✨</p>
                         <div class="event-info">
-                            <h5><i class="fas fa-calendar-check"></i> Thời gian: <span class="highlight">Chủ nhật, 15h30
+                            <h5><i class="fas fa-calendar-check"></i> Thời gian: <span class="highlight">15:30, Chủ nhật
                                     ngày 13/04/2025</span></h5>
                         </div>
                         <div class="event-info">
@@ -651,129 +655,50 @@
                                     Đại Học Cần Thơ</span></h5>
                         </div>
                     </div>
-
-                    <div class="important-note">
-                        <i class="fas fa-info-circle"></i>
-                        Sướng chủ xin phép từ chối nhận quà dưới bất kỳ hình thức nào nhé!
+                    <p class="gift-message">
+                        💝💝 Sự hiện diện của mọi người chính là món quà quý giá nhất với em! 💝💝
+                    </p>
+                    <div class="event-details"
+                        style="background: linear-gradient(135deg, #fff5f5 0%, #ffffff 100%); border: 2px solid #ff6b6b; padding: 20px; border-radius: 16px; margin: 20px 0;">
+                        <p
+                            style="font-style: italic; color: #1b74e4; text-align: center; font-size: 18px; line-height: 1.8; margin: 0;">
+                            Quà cáp em đây xin từ chối,<br>
+                            Bia ngon em đã chuẩn bị rồi.<br>
+                            Mời bạn góp mồi cùng nâng chén,<br>
+                            Đậm tình bằng hữu, tới bến thôi! 🍻
+                        </p>
                     </div>
-                    <div class="important-note">
-                        <i class="fas fa-info-circle"></i>
-                        Sướng chủ xin phép từ chối nhận quà dưới bất kỳ hình thức nào nhé!
-                    </div>
-                    <div class="important-note">
-                        <i class="fas fa-info-circle"></i>
-                        Sướng chủ xin phép từ chối nhận quà dưới bất kỳ hình thức nào nhé!
-                    </div>
-                    <p class="gift-message">💝 �� Sự hiện diện của mọi người chính là món quà quý giá nhất với em! 💝
-                        💝</p>
 
-                    <p class="text-center">hoặc</p>
-
-                    <div class="button-group">
-                        <button class="btn btn-primary gift-btn" data-bs-toggle="modal" data-bs-target="#tangQuaModal">
-                            <i class="fas fa-gift"></i> Tặng quà
-                        </button>
-                        <button class="btn btn-primary gift-btn" data-bs-toggle="modal" data-bs-target="#gopMoiModal">
-                            <i class="fas fa-gift"></i> Góp Mồi
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Tặng Quà Modal -->
-            <div class="modal fade" id="tangQuaModal" tabindex="-1" aria-labelledby="tangQuaModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="tangQuaModalLabel">🎉 Cảm ơn nhé...! Mình đã nhận tấm lòng rồi
-                                nè...! Còn lại thì... Góp Mồi đi...!</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body text-center">
-                            <div class="party-info mb-4">
-                                <h6 class="fw-bold mb-3">📍 Địa Điểm
-                                </h6>
-                                <p class="mb-2">Nhà Hàng Alô Dzô 100</p>
-                                <p class="mb-3">55B1B, Đ. Hồ Bún Xáng, Phường An Khánh, Ninh Kiều, Cần Thơ</p>
-
-                                <h6 class="fw-bold mb-3">⏰ Thời Gian</h6>
-                                <p class="mb-3">18:30 - 13/04/2025</p>
-
-                                <div class="alert alert-info">
-                                    <i class="fas fa-info-circle"></i> Quét/Click mã QR bên dưới để góp mồi nhé! 🍻
-                                </div>
-                            </div>
-
-                            <div class="qr-container">
-                                <a href="https://me.momo.vn/QDI7Tos6UBCPs7iDFOfetx" target="_blank">
-                                    <img src="29b0f5b9152da573fc3c.jpg" alt="Party QR Code" class="img-fluid"
-                                        style="max-width: 200px;">
+                    <div class="event-details" style="margin-top: 20px;">
+                        <div class="event-info">
+                            <h5>
+                                <i class="fas fa-utensils"></i>
+                                Địa điểm tiệc: <span class="highlight">Nhà Hàng Alô Dzô 100</span>
+                                <a href="https://maps.app.goo.gl/2LyBRVRaeX7gq9kf6" target="_blank"
+                                    style="margin-left: 12px; padding: 4px 12px; background: #1b74e4; color: white; border-radius: 8px; text-decoration: none; font-size: 14px;">
+                                    <i class="fas fa-map-marker" style="color: white;"></i> Xem địa điểm
                                 </a>
-                                <p class="text-muted mt-2">Cảm ơn mọi người đã góp vui! 🎊</p>
-                                <p class="text-muted mt-2">Hẹn quẩy tới bến nha...!</p>
+                            </h5>
+
+                            <div style="display: flex; align-items: center; margin-left: 28px; margin-top: 8px;">
+                                <p style="margin: 0;">55B1B, Đ. Hồ Bún Xáng, Phường An Khánh, Ninh Kiều, Cần Thơ</p>
                             </div>
                         </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-                                Thôi Không Đi
-                            </button>
-                            <button type="button" class="btn btn-success" data-bs-dismiss="modal">
-                                Phải Vậy Rồi
-                            </button>
-                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">
-                                Góp Rồi Nha
-                            </button>
+                        <div class="event-info">
+                            <h5><i class="fas fa-clock"></i> Thời gian: <span class="highlight">18:30, Chủ nhật ngày
+                                    13/04/2025</span></h5>
                         </div>
                     </div>
-                </div>
-            </div>
 
-            <!-- Góp Mồi Modal -->
-            <div class="modal fade" id="gopMoiModal" tabindex="-1" aria-labelledby="gopMoiModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="gopMoiModalLabel">🎉 Yeah, Time to Nhậu thôi!!!</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body text-center">
-                            <div class="party-info mb-4">
-                                <h6 class="fw-bold mb-3">📍 Địa Điểm
-                                </h6>
-                                <p class="mb-2">Nhà Hàng Alô Dzô 100</p>
-                                <p class="mb-3">55B1B, Đ. Hồ Bún Xáng, Phường An Khánh, Ninh Kiều, Cần Thơ</p>
-
-                                <h6 class="fw-bold mb-3">⏰ Thời Gian</h6>
-                                <p class="mb-3">18:30 - 13/04/2025</p>
-
-                                <div class="alert alert-info">
-                                    <i class="fas fa-info-circle"></i> Quét/Click mã QR bên dưới để góp mồi nhé! 🍻
-                                </div>
-                            </div>
-
-                            <div class="qr-container">
-                                <a href="https://me.momo.vn/QDI7Tos6UBCPs7iDFOfetx" target="_blank">
-                                    <img src="29b0f5b9152da573fc3c.jpg" alt="Party QR Code" class="img-fluid"
-                                        style="max-width: 200px;">
-                                </a>
-                                <p class="text-muted mt-2">Cảm ơn mọi người đã góp vui! 🎊</p>
-                                <p class="text-muted mt-2">Hẹn quẩy tới bến nha...!</p>
-                            </div>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-                                Thôi Không Đi
-                            </button>
-                            <button type="button" class="btn btn-success" data-bs-dismiss="modal">
-                                Phải Vậy Rồi
-                            </button>
-                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">
-                                Góp Rồi Nha
-                            </button>
-                        </div>
+                    <div class="qr-section" style="display: block; text-align: center; margin-top: 20px;">
+                        <h6>Quét/Click mã QR để góp mồi nhé! 🍻 🤪🍺</h6>
+                        <a href="https://me.momo.vn/QDI7Tos6UBCPs7iDFOfetx" target="_blank">
+                            <img src="29b0f5b9152da573fc3c.jpg" alt="Party QR Code" class="img-fluid"
+                                style="max-width: 200px; margin: 20px 0;">
+                        </a>
+                        <p class="text-muted">"Rượu ngon ta sẵn sàng, bạn thêm mồi bén, tình ngàn năm sau" 😎🥂</p>
                     </div>
+
                 </div>
             </div>
 
@@ -783,12 +708,10 @@
                     <div>
                         <i class="fas fa-heart text-danger"></i>
                         <i class="fas fa-thumbs-up text-primary"></i>
-
                     </div>
                     <div>
                         <a href="https://calendar.app.google/SSxM6YSL1a11q6UU6" target="_blank"
-                            class="btn share-btn btn-link">save to
-                            calendar</a>
+                            class="btn share-btn btn-link">save to calendar</a>
                     </div>
                 </div>
             </div>
@@ -797,16 +720,6 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        function toggleQR() {
-            const qrSection = document.getElementById('qrSection');
-            if (qrSection.style.display === 'none' || qrSection.style.display === '') {
-                qrSection.style.display = 'block';
-            } else {
-                qrSection.style.display = 'none';
-            }
-        }
-    </script>
 </body>
 
 </html>
